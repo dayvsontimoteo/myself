@@ -5,10 +5,10 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     html.classList.remove("light")
     html.classList.add("dark")
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/eu.jpg")
   } else {
     html.classList.remove("dark")
     html.classList.add("light")
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/eu.jpg")
   }
 }

@@ -54,7 +54,10 @@ body * {
 }
 
 #profile img {
+  border-radius: 100%;
   width: 112px;
+  height: 112px;
+  border: solid var(--highlight-color);
 }
 
 #profile p {
