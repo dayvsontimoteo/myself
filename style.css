@@ -37,7 +37,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -71,7 +72,7 @@ body * {
   border: 0px;
   border-radius: 50%;
   background: #ffffff var(--switch-bg-url) no-repeat center;
-  
+
   position: absolute;
   top: 50%;
   left: 0;
