@@ -31,6 +31,10 @@
   background: var(--background-url) no-repeat top center/cover;
 }
 
+body {
+  height: 100vh;
+}
+
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
@@ -151,4 +155,14 @@ footer {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
+}
+
+/* Media Queries */
+@media (min-width: 589px) {
+  .dark {
+    --background-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --background-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
